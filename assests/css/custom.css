@@ -1,0 +1,229 @@
+                                /*****************************/
+                                /********Header Section*******/
+                                /*****************************/
+
+
+            
+
+.navbar-section{
+    width: 100%;
+    height: 100vh;
+    background-image:url(../images/banner-bg.jpg) !important;
+    
+
+}
+
+.header-nav{
+    padding: 0px 50px;
+}
+.header-nav-link ul li{
+    padding: 10px;
+    color: gray;
+}
+.header-nav-link a{
+    padding: 6px 14px;
+    font-size: 15px;
+    font-family: sans-serif;
+    transition: 0.5s all ease;
+    text-decoration: none;
+    color: #ffffff;
+
+    
+}
+.header-nav-link a.active{
+    border: 1px solid goldenrod;
+}
+.header-nav-link a:hover{
+    border: 1px solid goldenrod;
+}
+                            /****((Header Carousel Images))****/
+.align-center-center{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.align-center-center h5{
+    color: #ffffff;
+    font-size: 16px;
+    font-family: sans-serif;
+    padding: 0px 0px 10px;
+}
+                            /**********************************/
+                            /******* Header Section End *******/
+                            /**********************************/
+
+
+                            /**********************************/
+                            /***** Service Section Aheads *****/
+                            /**********************************/
+.service-section{
+    padding: 130px 0px 0px;
+}
+.service-header{
+    text-align: center;
+    padding: 0px 0px 50px;
+}
+.service-header h2{
+    font-size: 50px;
+    font-family: serif;
+    color: #1C1C1C;
+    padding: 18px 0px 10px;
+}
+                           /*****Service Section Columns*****/
+.online-room-image{
+    width: 100%;
+    height: auto;
+}
+.color-2d{
+    color: #2d2d2d;
+}
+.pb-15{
+    padding-bottom: 15px;
+}
+.text-capitalize{
+    text-transform: capitalize!important;
+}
+.service-content{
+    background: #f9f9f9;
+    width: 100%;
+    padding: 35px 0px 60px;
+}
+.pos-relative{
+    position: relative;
+}
+.clamp-text{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+}
+.color-3d{
+    color: #666666;
+    font-size: 15px;
+    font-family: sans-serif;
+    margin: 0px 0px 31px;
+}
+.btn-default{
+    border-color: #bf9a54;
+}
+.btn-default, a{
+    color: #bf9a54;
+}
+.hotel-service .image{
+    transform-origin: center;
+
+}
+.hotel-service .card{
+    border: none;
+}
+@media (max-width:766px){
+    
+}
+
+
+
+
+
+
+
+
+                            /**********************************/
+                            /***** Service Section Ends *******/
+                            /**********************************/
+
+
+
+                                /*****************************/
+                                /****Footer First Section****/
+                                /****************************/
+                                                   
+.blank{
+    display: block;
+    padding: 40px 10px;
+    color: white;
+}
+.facebook{
+    background-color: #0000ff;
+}
+.twitter{
+    background-color: skyblue;
+}
+.google{
+    background-color: tomato;
+}
+.vimeo{
+    background-color: skyblue;
+}
+.behance{
+    background-color: black;
+}
+.dribble{
+    background-color: palevioletred;
+}
+
+
+                                /*****************************/
+                                /****Footer Second Section****/
+                                /*****************************/
+
+.background{
+    background-color: #17161e;
+    padding: 100px 0px 80px;
+}
+.image{
+    display: flex;
+    justify-content: center;
+
+
+}
+.footer-p{
+    color: #9592A1;
+    font: 14px;
+    font-family: sans-serif;
+    padding: 25px 20px 25px 30px;
+    margin-top: 30px;
+    text-align: center;
+
+}
+
+                                /*******************************/
+                                /**********Main Footer**********/
+                                /*******************************/
+
+.main-footer{
+    background-color: #0E0E11;
+    padding: 28px 0px;
+    color: #666666;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.main-footer .row{
+    display: flex;
+}
+.web a{
+    color: gold;
+}
+.copyright a{
+    color: gold;
+}
+.footer-links ul{
+    list-style-type: none;
+    text-align: right;
+}
+.footer-links li{
+    display: inline-block;
+    word-spacing: 0px;
+}
+.footer-links a{
+    padding: 0px 10px;
+    color: #A1A4C1;
+    font-size: 14px;
+    font-family: sans-serif;
+    transition: 0.6s;
+}
+.footer-links a:hover{
+    color: goldenrod;
+}
