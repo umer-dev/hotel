@@ -72,9 +72,28 @@
     padding: 18px 0px 10px;
 }
                            /*****Service Section Columns*****/
-.online-room-image{
+.column-inverse{
+    flex-flow: column-reverse!important;
+}
+.hotel-service{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    justify-content: center;
+}
+.hotel-service .service-content{
     width: 100%;
-    height: auto;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+/* .hotel-service .service-content:nth-child(even){
+    flex-flow: column-reverse;
+} */
+.hotel-service .image{
+
+    height: 230px ;
 }
 .color-2d{
     color: #2d2d2d;
@@ -88,7 +107,9 @@
 .service-content{
     background: #f9f9f9;
     width: 100%;
-    padding: 35px 0px 60px;
+}
+.service-header-para{
+    padding-top:40px ;
 }
 .pos-relative{
     position: relative;
@@ -96,9 +117,6 @@
 .clamp-text{
     overflow: hidden;
     text-overflow: ellipsis;
-    -webkit-box-orient: vertical;
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
 }
 .color-3d{
     color: #666666;
@@ -119,9 +137,13 @@
 .hotel-service .card{
     border: none;
 }
-@media (max-width:766px){
-    
-}
+/* @media(max-width:990px){
+    .column-inverse{
+        flex-flow: none!important;
+    }
+
+} */
+
 
 
 
@@ -134,6 +156,244 @@
                             /***** Service Section Ends *******/
                             /**********************************/
 
+                            /**********************************/
+                            /******* Room Section Start*******/
+                            /*********************************/
+
+.popular-room{
+    background-color:#f8f8f8 ;
+    padding: 130px 0px;
+}
+.popular-room .row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.popular-room-header{
+    font-family: serif;
+    color: #1C1C1C;
+    padding: 18px 0px 10px;
+}
+.color-1c{
+    color: #1C1C1C;
+}
+.popular-room-header h2{
+    font-size: 50px;
+}
+.popular-room-header p{
+    font-size: 17px;
+}
+.single-room{
+    background: #fff;
+    padding: 20px 20px 60px;
+}
+.single-room a{
+    color: #333333;
+}
+ .single-room .room-img{
+    display: block;
+    margin-bottom:30px
+} 
+.single-room h5{
+    font-size: 24px;
+    line-height: 34px;
+    font-family: sans-serif;
+}
+.single-room p{
+    margin-bottom: 16px;
+    color: #666666;
+    font-size: 15px;
+}
+.mb-15{
+    margin-bottom: 15px;
+}
+span.divider{
+    background-color:#bf9a54 ;
+    display: block;
+    width: 40px;
+    height: 2px;
+    margin-bottom: 15px;
+}
+.color-66{
+    color: #666666;
+}
+.single-room h4{
+    font-size: 30px;
+    line-height: 42px;
+    font-family: 'playfair Display', sans-serif;
+}
+.price span{
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.read-btn{
+    background-color: #bf9a54;
+    color: #fff;
+    width: 160px;
+    text-align: center;
+    position: relative;
+    border-radius: 0px;
+}
+@media only screen and (max-width:578px){
+    .row{
+        text-align: center;
+        justify-content: center;
+    }
+    .divider{
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+                                /*****************************/
+                                /***** Room Section Ends *****/
+                                /*****************************/
+
+                                /********************************/
+                                /******* Spa Section Aheads *****/
+                                /********************************/
+
+.section-padding{
+    padding: 130px 0;
+    display: block;
+}
+.hotel-cta .cta-content{
+    border: 1px solid #e4e5ea;
+    padding: 30px 40px 40px;
+}
+.content-txt{
+    margin: 0 auto;
+    max-width: 480px;
+    width: 100%;
+}
+.text-center{
+    text-align:center!important;
+}
+.pos-relative{
+    position: relative;
+}
+.color-33{
+    color: #333333;
+}
+.fw-300{
+    font-weight: 300;
+}
+.playfair{
+    font-family: serif;
+}
+.content-txt h3{
+    font-size: 40px;
+    line-height: 54px;
+    
+}
+.font{
+    font-size: 15px;
+    font-family: sans-serif;
+}
+                                /**** Realted Services ****/
+
+.related-service{
+    display: flex;
+    flex-flow: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.related-service .single-service{
+    width: 33.33%;
+    overflow: hidden;
+}
+.related-service  h5{
+    background: rgba(255, 255, 255, 0.6);
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 0;
+}
+.color-21{
+    color: #212121;
+}
+.columns:hover{
+    transform:scale(1.01);
+    transition: 0.8s;
+}
+.columns h5:hover{
+    display: none;
+}
+@media only screen and (max-width:767px){
+    .related-service{
+        padding: 0 15px;
+        display: block;
+    }
+    .related-service .row{
+        text-align: center;
+        justify-content: center;
+    }
+}
+/* @media (max-width:767px){
+    .related-service{
+        padding: 0 15px;
+        display: block;
+ 
+    }
+} */
+
+                                /******************************/
+                                /****** Spa Section Ends ******/
+                                /******************************/
+
+
+                                /******************************/
+                                /**** App Section Aheads ******/
+                                /******************************/
+
+.app-section{
+    overflow: hidden;
+}
+.section-padding{
+    padding: 130px 0;
+}
+.section{
+    display: block;
+}
+.app-section .row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.content{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+.content h6{
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.content h2{
+    width: 100%;
+    margin: 0 auto 40px;
+    font-family: serif;
+    font-size: 50px;
+}
+.content p{
+    color: #666666;
+    font-size: 15px;
+    font-family: serif;
+    margin: 0px 0px 42px;
+}
+.title-20{
+    font-size: 20px;
+    line-height: 30px;
+}
+.color-20{
+    color: #202020;
+}
 
 
                                 /*****************************/
@@ -178,6 +438,16 @@
     justify-content: center;
 
 
+}
+.banner-1{
+    text-align: center;
+    justify-content: center;
+    border-bottom: 1px solid red;
+    
+}
+.icon{
+   padding-right: 4px;
+   padding-left: 4px;
 }
 .footer-p{
     color: #9592A1;
