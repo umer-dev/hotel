@@ -1,3 +1,10 @@
+     
+                                /****** By Default **********/
+
+a{
+    text-decoration: none;
+}
+    
                                 /*****************************/
                                 /********Header Section*******/
                                 /*****************************/
@@ -59,7 +66,7 @@
                             /***** Service Section Aheads *****/
                             /**********************************/
 .service-section{
-    padding: 130px 0px 0px;
+    padding: 130px 0px 100px;
 }
 .service-header{
     text-align: center;
@@ -110,6 +117,8 @@
 }
 .service-header-para{
     padding-top:40px ;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .pos-relative{
     position: relative;
@@ -161,7 +170,7 @@
                             /*********************************/
 
 .popular-room{
-    background-color:#f8f8f8 ;
+    background-color:#6c757d38 ;
     padding: 130px 0px;
 }
 .popular-room .row{
@@ -187,6 +196,7 @@
 .single-room{
     background: #fff;
     padding: 20px 20px 60px;
+    margin-bottom: 20px;
 }
 .single-room a{
     color: #333333;
@@ -285,8 +295,10 @@ span.divider{
 .content-txt h3{
     font-size: 40px;
     line-height: 54px;
-    
+  
+
 }
+
 .font{
     font-size: 15px;
     font-family: sans-serif;
@@ -316,8 +328,8 @@ span.divider{
     color: #212121;
 }
 .columns:hover{
-    transform:scale(1.01);
-    transition: 0.8s;
+    transform:scale(1.04);
+    transition: 0.8s all ease;
 }
 .columns h5:hover{
     display: none;
@@ -369,6 +381,8 @@ span.divider{
     flex-flow: column;
     align-items: center;
     justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 10px;
 }
 .content h6{
     margin-bottom: 30px;
@@ -393,6 +407,9 @@ span.divider{
 }
 .color-20{
     color: #202020;
+}
+.img-area{
+    padding-top: 50px;
 }
 
 
