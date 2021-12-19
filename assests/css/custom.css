@@ -412,6 +412,95 @@ span.divider{
     padding-top: 50px;
 }
 
+                                /*****************************/
+                                /***** Section Ends *********/
+                                /*****************************/
+
+                                /******************************/
+                                /***** Blog Section ***********/
+                                /******************************/
+                                /***** Section Starts ********/
+                                /*****************************/
+
+/* .single-blog-post .img-area{
+    overflow: hidden;
+}
+.pos-relative{
+    position: relative;
+}
+.image-fluid{
+    max-width: 100%;
+    height: auto;
+}
+/* .single-blog-post .img-area .date{
+    background: #fffffc;
+    color: black;
+    font-size: 13px;
+    height: 60px;
+    font-weight: 700;
+    line-height: 19px;
+    padding: 10px;
+    position: absolute;
+    right: 0px;
+    text-align: center;
+    bottom: 50px;
+    width: 60px;
+}
+.text-capitalize{
+    text-transform: capitalize!important;
+}
+.d-block{
+    display: block!important;
+} 
+
+.blog-section .single-blog-post .blog-content{
+    padding: 20px 30px 25px;
+    background-color:#666666 ;
+}
+.blog-section .single-blog-post .blog-content h5 a{
+    color: #333333;
+    font: 24px;
+    font-family: sans-serif;
+} */
+.headings{
+    padding-bottom: 60px;
+}
+.single-blog{
+    overflow: hidden;
+}
+.single-blog .single-blog-text{
+    padding: 20px 30px 25px;
+    background-color: rgba(211, 211, 211, 0.2);
+    
+    
+}
+.single-blog .single-blog-text a{
+    color: #333333;
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+.single-blog .single-blog-text p{
+    font-size: 15px;
+    font-family: sans-serif;
+    padding: 15px 0px;
+}
+.single-blog .single-blog-text a.read-more{
+    font-size: 14px;
+    color: #555555;
+    text-decoration: underline;
+}
+.text-uppercase{
+    text-transform: uppercase!important;
+}
+
+
+                                /******************************/
+                                /******* Section End *********/
+                                /*****************************/
+
 
                                 /*****************************/
                                 /****Footer First Section****/
