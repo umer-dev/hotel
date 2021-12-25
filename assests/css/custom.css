@@ -416,6 +416,76 @@ span.divider{
                                 /***** Section Ends *********/
                                 /*****************************/
 
+
+                                /*******************************/
+                                /**** Hotel Testimonals Starts *****/
+                                /*******************************/
+                                /***** Section Aheads *********/
+                                /******************************/
+
+.section-title{
+    margin: 0 auto 72px;
+    max-width: 450px;
+}
+.text-center{
+    text-align: center!important;
+}
+.section-title h2{
+    padding-top: 18px;
+    padding-bottom: 10px;
+    font-family: serif;
+}
+.pos-relative{
+    position: relative;
+}
+.color-1c{
+    color: #1C1C1C;
+}
+.text-uppercase{
+    text-transform: uppercase!important;
+}
+.owl-carousel .owl-loaded{
+    display: block;
+}
+.owl-carousel{
+    width: 100%;
+    z-index: 1;
+    -webkit-tap-highlight-color: transparent;
+    position: relative;
+}
+.owl-carousel .owl-stage-outer{
+    position: relative;
+    overflow: hidden;
+    -webkit-transform: translate3d(0,0,0);
+}
+.owl-carousel .owl-stage-outer .owl-stage{
+    transform: translate3d(-1725px, 0px, 0px);
+    transition: all 1.2s ease 0s;
+    width: 4700px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.hotel-testimonal .single-testimonal{
+    border: 1px solid #ededed;
+    padding: 40px 25px 40px 75px;
+}
+.hotel-testimonal .author-img{
+    height: 90px;
+    left: -45px;
+    margin-top: -45px;
+    position: absolute;
+    top: 50px;
+    width: 90px;
+}
+.radius-100p{
+    border-radius: 100%;
+}
+
+
+                                /*******************************/
+                                /********* Section Ends ********/
+                                /*******************************/
+
                                 /******************************/
                                 /***** Blog Section ***********/
                                 /******************************/
